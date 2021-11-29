@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper {
+  min-height: 100vh;
+  max-width: 20rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsWrapper {
+  padding: 4rem 0;
+  font-size: 2.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
